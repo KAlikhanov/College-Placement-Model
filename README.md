@@ -17,8 +17,7 @@ The best model ended up being a random forest model where PCA was not used.
 - Recall: 0.83165
 - Precision: 0.95389
 - ROC AUC Score: 0.93606
-- Classification Report:
-![classification_report](classification_report.PNG)
-
 - Confusion Matrix:
+
+
 ![confusion_matrix](confusion_matrix.png)
