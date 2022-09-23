@@ -21,3 +21,6 @@ The best model ended up being a random forest model where PCA was not used.
 
 
 ![confusion_matrix](confusion_matrix.png)
+
+### Use case:
+The model could be useful for the college to understand what students are likely to be placed. It could also help speed up the placement process. The model is tuned based on the data so this model is only reliable on the same college. As such it is most likely a lot less effective if it would be tested on data from a different college, making it less useful to them.
