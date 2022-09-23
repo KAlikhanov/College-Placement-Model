@@ -1,2 +1,2 @@
-# Project_2
+# College Placement Model
 Name is temporary.
