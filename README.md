@@ -35,6 +35,13 @@ Which is more harmful? It depends on who wants to use the model. If the college 
 
 ### Barplot of the Likelihood of Having a History of Failing a Class Using Hostel Status for Various Education Fields
 ![hostel_barplot](college_placement_hostel_comparison.PNG)
+#### Visualization analysis:
+> This visualization compares hostel status to whether or not a history of failing a class is present, it then further splits this comparison by respective education fields. This visualization is hard to explain in words because it uses three different qualitative data groups, but visually it still works fine. In this visualization we can see that there are some interesting trends. Those living in a hostel in the Electronics and Communication field are disproportionately more likely to have a history of failing a class. The same is true for the electrical field but to a lesser degree. It is also worht noting that in the Information Teeldchnology field for those living in a hostel it is the most unikely that they have failed a class in the past.
+
+###
+![placement_barplot](college_placement_internship_gpa_comparison.PNG)
+
+> This visualization compares the number of internships to the cumulative GPA of students, it then splits this comparison further with placement status.
 
 ### Use case:
 The model could be useful for the college to understand what students are likely to be placed. It could also help speed up the placement process. The model is tuned based on the data so this model is only reliable on the same college. As such it is most likely a lot less effective if it would be tested on data from a different college, making it less useful to them.
