@@ -30,7 +30,11 @@ We can see that our precision is very high, this means that of those that the mo
 The recall for our model is lower than our precision. This means that our model correctly determined ~83% of the total placed students. This metric is different from precision in that it includes those the model says would not be placed but in fact were. It is expected that recall will be lower than precision as it is comparing the same value (true positive) to a larger pool.
 #### Which is more important?
 Honestly they are both important, both metrics would serve a purpose if the college/company were to employ a machine learning model. For example A high precision is good because it means that when the model predicts that someone will be placed it is likely that they are, this metric however really stands out when combined with recall. Recall shows on how much of total relevant data was the model correct, not just of those that it chose. If we only had precision the model could predict only a small handful of students and have a high precision. However, this type of model is relatively useless if there is a much bigger pool of candidates and the model is only choosing a small albeit relatively correct portion. In conjunction with recall we can see that our model is not only correct on those that it predicts, but that it predicts a vast majority of the total placed students.
-#### False positives/ negatives
+#### False positives/ negatives:
 Which is more harmful? It depends on who wants to use the model. If the college wants to use the model then they want to have as little false positives as possible to cost them the least amount of money. If the model was to be used for students they would want as little false negatives as possible. We can assume that the model will be used by the college/ company rather than the students. This is great because our model has fewer false positives compared to false negatives. 
+
+#### Barplot of the Likelihood of Having a History of Failing a Class Using Hostel Status for Various Education Fields
+![hostel_barplot](college_placement_hostel_comparison.PNG)
+
 ### Use case:
 The model could be useful for the college to understand what students are likely to be placed. It could also help speed up the placement process. The model is tuned based on the data so this model is only reliable on the same college. As such it is most likely a lot less effective if it would be tested on data from a different college, making it less useful to them.
