@@ -33,7 +33,7 @@ Honestly they are both important, both metrics would serve a purpose if the coll
 #### False positives/ negatives:
 Which is more harmful? It depends on who wants to use the model. If the college wants to use the model then they want to have as little false positives as possible to cost them the least amount of money. If the model was to be used for students they would want as little false negatives as possible. We can assume that the model will be used by the college/ company rather than the students. This is great because our model has fewer false positives compared to false negatives. 
 
-#### Barplot of the Likelihood of Having a History of Failing a Class Using Hostel Status for Various Education Fields
+### Barplot of the Likelihood of Having a History of Failing a Class Using Hostel Status for Various Education Fields
 ![hostel_barplot](college_placement_hostel_comparison.PNG)
 
 ### Use case:
