@@ -9,6 +9,9 @@ Various classification models and feature engineering techniques were tested aga
 ### Source:
 [Data Source.](https://www.kaggle.com/datasets/tejashvi14/engineering-placements-prediction?select=collegePlace.csv)
 
+### About the Data:
+The data consists of 2966 rows and 8 columns. In the data there is some basic information such as age, gender, and cumulative GPA. There is also more inteesting data such as number of internships, whether or not the student lives in a hostel, or has a history of failing a class, whether or not they got placed, what stream they are in. Stream stands for Science, Technology, Religion, Engineering, Arts and Mathematics, and basically equates to their education field. This data is specifically on the engineering course at this college which explains why the different education fields present are what they are. You might ask yourself, what is placement? Students who are at the end of their college degree have chances to get a job from a partnership between the college and a company, landing this job is placement.
+
 ### Results:
 The best model ended up being a random forest model where PCA was not used.
 
