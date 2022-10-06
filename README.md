@@ -38,9 +38,9 @@ Which is more harmful? It depends on who wants to use the model. If the college 
 #### Visualization analysis:
 > This visualization compares hostel status to whether or not a history of failing a class is present, it then further splits this comparison by respective education fields. This visualization is hard to explain in words because it uses three different qualitative data groups, but visually it still works fine. In this visualization we can see that there are some interesting trends. Those living in a hostel in the Electronics and Communication field are disproportionately more likely to have a history of failing a class. The same is true for the electrical field but to a lesser degree. It is also worht noting that in the Information Teeldchnology field for those living in a hostel it is the most unikely that they have failed a class in the past.
 
-###
+### Barplot Comparing Cumulative GPA and Number of Internships to Placement status.
 ![placement_barplot](college_placement_internship_gpa_comparison.PNG)
-
+#### Visualization analysis:
 > This visualization compares the number of internships to the cumulative GPA of students, it then splits this comparison further with placement status. A trend we can see is that the cumulative GPA of those placed is higher than those not placed regardless of the amount of internships. Interestingly as the amount of internships increases the average cumulative GPA of those placed becomes lower and the average GPA of those not placed gets higher. However, if you think about what this means logically it makes sense. 
 
 ### Use case:
