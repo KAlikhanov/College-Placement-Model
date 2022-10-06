@@ -41,7 +41,7 @@ Which is more harmful? It depends on who wants to use the model. If the college 
 ###
 ![placement_barplot](college_placement_internship_gpa_comparison.PNG)
 
-> This visualization compares the number of internships to the cumulative GPA of students, it then splits this comparison further with placement status.
+> This visualization compares the number of internships to the cumulative GPA of students, it then splits this comparison further with placement status. A trend we can see is that the cumulative GPA of those placed is higher than those not placed regardless of the amount of internships. Interestingly as the amount of internships increases the average cumulative GPA of those placed becomes lower and the average GPA of those not placed gets higher. However, if you think about what this means logically it makes sense. 
 
 ### Use case:
 The model could be useful for the college to understand what students are likely to be placed. It could also help speed up the placement process. The model is tuned based on the data so this model is only reliable on the same college. As such it is most likely a lot less effective if it would be tested on data from a different college, making it less useful to them.
